@@ -12,7 +12,7 @@ test/temp.log
 test/temp.txt
 *.spc
 
-test/samples/**
+test/samples/*
 !test/samples/EMPTY.brr
-!test/samples/default/
-!test/samples/optimized/
+!test/samples/default
+!test/samples/optimized
