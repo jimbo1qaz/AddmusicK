@@ -456,7 +456,7 @@
 		<tr>
 			<td rowspan="2">$ED</td>
 			<td rowspan="2">GAIN</td>
-			<td rowspan="2">Enables a custom GAIN on the current channel. </td>
+		<td rowspan="2">Enables a custom GAIN on the current channel. <b>NOTE: If switching from ADSR to GAIN, instrument GAIN may be enabled before custom GAIN! If Instrument GAIN=$00, notes will cut immediately!</b></td>
 			<td>$80</td>
 			<td></td>
 		</tr>
@@ -508,7 +508,7 @@
 		</tr>
 		<tr>
 			<td>$ZZ<br /></td>
-			<td>FIR filter to use. See the echofilter tables in main.asm for more details, but for 99% of the userbase, $01 is "on" and $00 is "off".<br /></td>
+			<td>FIR filter to use. See the echofilter tables in main.asm for more details, but for 99% of the userbase, $01 is "unfiltered" and $00 is "low-pass filtered".<br /></td>
 		</tr>
 		<tr><td colspan="5">&nbsp;</td></tr>
 		<tr>
@@ -694,7 +694,7 @@
 		<tr>
 			<td rowspan="2">$FA</td>
 			<td rowspan="2">GAIN<br /></td>
-			<td rowspan="2">Enables GAIN on the current channel<br /></td>
+		<td rowspan="2">Enables GAIN on the current channel. <b>NOTE: If switching from ADSR to GAIN, instrument GAIN may be enabled before custom GAIN! If Instrument GAIN=$00, notes will cut immediately!</b><br></td>
 			<td>$01<br /></td>
 			<td></td>
 		</tr>
